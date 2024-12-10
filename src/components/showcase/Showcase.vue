@@ -9,10 +9,10 @@
     </h2>
     <div class="card-product flex gap-6">
       <div v-for="item in showcaseOne.products?.slice(0, 4)" :key="item.id" class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-        <div v-if="created === false" class="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-black bg-clip-border text-gray-700 flex justify-center" >
+        <div v-if="created === false" class="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-black bg-clip-border text-gray-700 flex justify-center">
           <img class="h-48 w-48 rounded-xl" src="@/assets/img/logoWhite.svg" alt="logo da loja" />
         </div>
-        <div v-else class="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-black bg-clip-border text-gray-700 flex justify-center" >
+        <div v-else class="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-black bg-clip-border text-gray-700 flex justify-center">
           <img :src="item.images[1]" class="max-h-full max-w-full mx-auto object-cover object-center" :alt="item.title" />
         </div>
         <div class="p-6 h-52">

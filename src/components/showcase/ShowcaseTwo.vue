@@ -59,7 +59,9 @@
                       </p>
                     </div>
                     <div class="flex-1 inline-flex items-center">
-                      <p class="">Sku: {{ item.sku }}</p>
+                      <p class="">
+                        Sku: {{ item.sku }}
+                      </p>
                     </div>
                   </div>
                   <div class="flex p-4 pb-2 border-t border-gray-200" />

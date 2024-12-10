@@ -1,7 +1,9 @@
 <template>
   <div class="bg-white">
     <div>
-      <h2 class="text-xl font-semibold mb-8">Avaliações recentes</h2>
+      <h2 class="text-xl font-semibold mb-8">
+        Avaliações recentes
+      </h2>
 
       <div class="-my-10">
         <div
@@ -24,8 +26,16 @@
                 class="lucide lucide-circle-user-round"
               >
                 <path d="M18 20a6 6 0 0 0-12 0" />
-                <circle cx="12" cy="10" r="4" />
-                <circle cx="12" cy="12" r="10" />
+                <circle
+                  cx="12"
+                  cy="10"
+                  r="4"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                />
               </svg>
             </div>
           </div>
@@ -35,7 +45,9 @@
               'flex-1 py-10',
             ]"
           >
-            <h3 class="font-medium text-gray-900">{{ review.reviewerName }}</h3>
+            <h3 class="font-medium text-gray-900">
+              {{ review.reviewerName }}
+            </h3>
             <p>
               <time :datetime="review.datetime">{{ review.date }}</time>
             </p>
@@ -51,9 +63,14 @@
                 aria-hidden="true"
               />
             </div>
-            <p class="sr-only">{{ review.rating }} out of 5 stars</p>
+            <p class="sr-only">
+              {{ review.rating }} out of 5 stars
+            </p>
 
-            <div class="mt-4 text-sm/6 text-gray-500" v-html="review.comment" />
+            <div
+              class="mt-4 text-sm/6 text-gray-500"
+              v-html="review.comment"
+            />
           </div>
         </div>
       </div>

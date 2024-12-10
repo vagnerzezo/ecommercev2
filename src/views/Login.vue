@@ -9,7 +9,9 @@
       >
         <div class="rounded-t mb-0 px-6 py-6">
           <div class="text-center mb-3">
-            <h6 class="text-blueGray-500 text-sm font-bold">Entre com</h6>
+            <h6 class="text-blueGray-500 text-sm font-bold">
+Entre com
+</h6>
           </div>
           <div class="btn-wrapper text-center">
             <button
@@ -32,8 +34,12 @@
                   y2="40.615"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop offset="0" stop-color="#2aa4f4"></stop>
-                  <stop offset="1" stop-color="#007ad9"></stop>
+                  <stop offset="0"
+stop-color="#2aa4f4"
+></stop>
+                  <stop offset="1"
+stop-color="#007ad9"
+></stop>
                 </linearGradient>
                 <path
                   fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)"
@@ -68,8 +74,7 @@
               <label
                 class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                 for="username"
-                >Usuário</label
-              >
+                >Usuário</label>
               <input
                 id="username"
                 v-model="username"
@@ -99,8 +104,8 @@
               <label class="inline-flex items-center cursor-pointer">
                 <input
                   id="customCheckLogin"
-                  type="checkbox"
                   v-model="rememberMe"
+                  type="checkbox"
                   class="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-3 h-3 ease-linear transition-all duration-150"
                 />
                 <span class="ml-2 text-xs font-semibold">Lembrar-me</span>

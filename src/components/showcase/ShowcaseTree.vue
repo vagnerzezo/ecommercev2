@@ -19,7 +19,7 @@
             class="h-48 w-48 rounded-xl"
             src="@/assets/img/logoWhite.svg"
             alt="logo da loja"
-          />
+          >
         </div>
         <div
           v-else
@@ -29,7 +29,7 @@
             :src="item.images[1]"
             :alt="item.title"
             class="max-h-full max-w-full mx-auto object-cover object-center"
-          />
+          >
         </div>
         <div class="p-6 h-52">
           <div class="mb-2 flex items-center justify-between">
